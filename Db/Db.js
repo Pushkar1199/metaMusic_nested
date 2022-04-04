@@ -36,8 +36,8 @@ CREATE TABLE IF NOT EXISTS metaData (
     music_id varchar(255)   
 );
 
-
 `;
+
 pool.query(text, (err, res) => {
   if (err) {
     console.log(err);
