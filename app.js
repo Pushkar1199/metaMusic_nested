@@ -76,7 +76,7 @@ app.use(
 
 app.get("/", (req, res, next) => {
   res.send(
-    `<h2><a href = '/graphql'>CLICK TO CONTINUE TO UI </a></h2><h3><a href = "https://github.com/Pushkar1199/music-lib/blob/master/README.md">README</a></h3>`
+    `<h2><a href = '/graphql'>CLICK TO CONTINUE TO UI </a></h2><h3><a href = "https://github.com/Pushkar1199/metaMusic_nested">GITHUB REPO</a></h3>`
   );
 });
 
